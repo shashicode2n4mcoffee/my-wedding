@@ -9,7 +9,7 @@ $(document).on('click', function () {
 })
 
 // Set the date we're counting down to
-var countDownDate = new Date('Nov 18, 2024 00:00:00').getTime()
+var countDownDate = new Date('Dec 05, 2024 00:00:00').getTime()
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -59,7 +59,7 @@ var styles = [
   'line-height: 40px',
   'text-align: center',
   'font-weight: bold',
-  'font-size: 32px',
+  'font-size: 32px'
 ].join(';')
 
 var styles1 = [
@@ -68,7 +68,7 @@ var styles1 = [
   'text-shadow: 0 2px 0 rgba(0, 0, 0, 1)',
   'line-height: 40px',
   'font-weight: bold',
-  'font-size: 32px',
+  'font-size: 32px'
 ].join(';')
 
 var styles2 = [
@@ -77,7 +77,7 @@ var styles2 = [
   'text-shadow: 0 2px 0 rgba(0, 0, 0, 1)',
   'line-height: 40px',
   'font-weight: bold',
-  'font-size: 32px',
+  'font-size: 32px'
 ].join(';')
 
 console.log('\n\n%c SAVE THE DATE: 29th Nov, 2020!', styles)
